@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100%;
+    background-color: #f3f3f3;
+    background-image: url(../img/cubes.png);
+}
+
+.bgwide {
+    background: url(../img/banner.jpg) center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+    height: 100%;
+}
+
+/* .bg-white .custom-bg {
+    background: rgba(255, 255, 255, 0.3);
+} */
+
+.custom-nav {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, .1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--bs-blue);
+}
+
+.card {
+    border-radius: 0;
+    padding: 0.3rem;
+}
+
+.card-img,
+.card-img-custom {
+    opacity: .89;
+    border-radius: 0;
+}
+
+.card-img,
+.card-img-custom:hover {
+    opacity: 1;
+    border-radius: 0;
+}
+
+.card-img-overlay {
+    border-radius: 0;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.custom-title {
+    font-size: 3rem;
+}
+
+.shadow-in-box-custom {
+    box-shadow: 0 0 0.8rem rgba(0, 0, 0, .1);
+}
+
+.bg-gradient-custom {
+    background-image: linear-gradient(#8ee3d8, #50a0bf, #025373);
+    border: none;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3385b7;
+}
+
+.link-blue-custom {
+    color: #3385b7;
+    text-decoration: none;
+}
+
+#back-to-top {
+    position: none;
+    /* bottom: 50px;
+    right: 30px; */
+}
